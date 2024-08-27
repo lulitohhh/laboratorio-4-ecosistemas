@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Publicación</title>
+    <link rel="stylesheet" href="post.css">
+</head>
+<body>
+    <div class="post-form-container">
+        <h2>Crear Publicación</h2>
+        <form id="post-form">
+            <input type="file" id="image-file" accept="image/*" required>
+            <input type="text" id="post-title" placeholder="Título" required>
+            <textarea id="post-description" rows="4" placeholder="Descripción" required></textarea>
+            <button type="submit" id="submit-post">Crear Publicación</button>
+        </form>
+    </div>
+    <div id="posts-list" class="posts-list">
+       
+    </div>
+    <a href="http://127.0.0.1:3000/" class="back-button">Volver</a>
+    <script src="post.js"></script>
+</body>
+</html>

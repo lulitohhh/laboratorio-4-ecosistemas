@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #f0f4f8, #e1f5fe);
+  margin: 0;
+}
+
+.login-container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+  transform: scale(1.02);
+}
+
+h1 {
+  font-size: 28px;
+  color: #00796b;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+input {
+  width: calc(100% - 22px);
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #b2dfdb;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #00796b;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+#data-container {
+  margin-top: 20px;
+}
+
+.error {
+  color: #014e44;
+  font-size: 14px;
+}
+
+.loading {
+  color: #70e99f;
+  font-size: 14px;
+}
+
+.success {
+  color: #62c967;
+  font-size: 14px;
+}
+
